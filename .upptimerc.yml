@@ -112,3 +112,4 @@ commitMessages:
   graphsUpdate: ":bento: Update graphs [skip ci] [upptime]"
   staticSite: ":arrow_up: Update @upptime to $VERSION"
   allUp: ":green_heart: All sites are up"
+# Force status refresh
