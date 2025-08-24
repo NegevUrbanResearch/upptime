@@ -10,28 +10,48 @@ sites:
     icon: 🏠
     expectedStatusCodes:
       - 200
-    maxResponseTime: 5000
+      - 201
+      - 202
+      - 204
+    maxResponseTime: 15000
+    assignees:
+      - NegevUrbanResearch
 
   - name: Data API - Buildings
     url: https://negevurbanresearch.github.io/shelter_access/data/buildings_light.geojson
     icon: 🏗️
     expectedStatusCodes:
       - 200
-    maxResponseTime: 10000
+      - 201
+      - 202
+      - 204
+    maxResponseTime: 30000
+    assignees:
+      - NegevUrbanResearch
 
   - name: Data API - Shelters
     url: https://negevurbanresearch.github.io/shelter_access/data/shelters.geojson
     icon: 🛡️
     expectedStatusCodes:
       - 200
-    maxResponseTime: 10000
+      - 201
+      - 202
+      - 204
+    maxResponseTime: 30000
+    assignees:
+      - NegevUrbanResearch
 
   - name: Data API - Accessibility Heatmap
     url: https://negevurbanresearch.github.io/shelter_access/data/accessibility_heatmap.json
     icon: 🗺️
     expectedStatusCodes:
       - 200
-    maxResponseTime: 10000
+      - 201
+      - 202
+      - 204
+    maxResponseTime: 30000
+    assignees:
+      - NegevUrbanResearch
 
 status-website:
   baseUrl: /upptime
@@ -57,6 +77,24 @@ schedule: "*/5 * * * *"
 
 # GitHub options
 user-agent: upptime
+
+# Status detection settings
+skipDescriptionUpdate: false
+skipTopicsUpdate: false
+skipHomepageUpdate: false
+skipPoweredByReadme: false
+
+# Incident management
+assignees:
+  - NegevUrbanResearch
+
+# Auto-close issues
+autoAssignIssues: true
+autoCloseStaleIssues: false
+
+# Performance settings
+delay: 2000
+timeout: 30000
 workflowSchedule:
   graphs: "0 0 * * *"
   responseTime: "0 23 * * *"
