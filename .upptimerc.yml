@@ -33,7 +33,7 @@ sites:
     maxResponseTime: 10000
 
 status-website:
-  cname: status.negevurbanresearch.org # Optional: Custom domain
+  # cname: status.negevurbanresearch.org # Optional: Custom domain - disabled until DNS is configured
   logoUrl: https://negevurbanresearch.github.io/shelter_access/data/favicon.ico
   name: Shelter Access Status
   introTitle: "Negev Shelter Access Monitoring"
