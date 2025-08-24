@@ -1,33 +1,34 @@
-# [![Upptime](https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/logo.svg)](https://upptime.js.org)
+# 🏠 Shelter Access Status Monitor
 
 <!--start: description-->
 
-**Upptime** (https://upptime.js.org) is the open-source uptime monitor and status page, powered entirely by GitHub Actions, Issues, and Pages. It's made with 💚 by [Anand Chowdhary](https://anandchowdhary.com), supported by [Pabio](https://pabio.com).
+**Real-time monitoring for the Negev Shelter Access Analysis platform**, powered by [Upptime](https://upptime.js.org) - an open-source uptime monitor and status page using GitHub Actions, Issues, and Pages.
 
-> I find Upptime an incredible clever usage of \[GitHub Actions]. You essentially get a free configurable uptime monitor for whatever you want. – [CSS Tricks](https://css-tricks.com/upptime/)
+This status page monitors the critical components of the Negev Shelter Access project to ensure reliable access to shelter data and analysis tools during emergency situations.
 
-<details data-embed="anandchowdhary.com" data-title="Upptime" data-summary="Uptime monitor and status page powered by GitHub Actions">
-  <summary>Upptime is used by <strong>3,000+</strong> people and teams to ensure they know when their endpoints go down.</summary>
+## 🎯 What We Monitor
 
-I built Upptime because, like many developers, I needed an uptime monitor and status page for my startup Pabio that was affordable, flexible, and completely under my control. At the time, existing services felt expensive, rigid, or closed-source. GitHub Actions had just launched, and I thought: hmm... what if I turned Actions into a self-hosted uptime monitor?
+- **🏠 Main Application**: The primary shelter access web interface
+- **🏗️ Building Data API**: GeoJSON endpoint for building footprints
+- **🛡️ Shelter Data API**: GeoJSON endpoint for shelter locations
+- **🗺️ Accessibility Heatmap**: JSON data for accessibility analysis
 
-Upptime runs scheduled checks using GitHub Actions (as often as every 5 minutes) to ping your endpoints and verify they're online. Response time data is recorded and committed to git, enabling long-term trend charts and historical insights. When downtime is detected, GitHub Issues are automatically opened and closed. A status page built with Svelte is hosted via GitHub Pages and shows uptime, response times, and incident history - so you get the full-stack uptime monitor and status page.
+## 📊 Monitoring Details
 
-I built it to be completely free if you're already using GitHub since there's no external server or subscription needed. All configuration lives in a single file, and your data is gone if you delete the repo. Plus, you get a git-native audit trail for all changes and events.
-
-Since launching, Upptime has grown to over 16,000 stars and is actively used by developers and teams to monitor their services. In fact, Upptime is used by [over 3,000+ people and teams](https://github.com/topics/upptime), including Ubuntu-maker Canonical and my preferred developer time tracker Wakatime.
-
-</details>
+- **Check Frequency**: Every 5 minutes
+- **Response Time Tracking**: Continuous monitoring with historical graphs
+- **Incident Management**: Automatic GitHub issue creation/resolution
+- **Data Retention**: Full historical data stored in git
 
 <!--end: description-->
 
-[![Uptime CI](https://github.com/upptime/upptime/workflows/Uptime%20CI/badge.svg)](https://github.com/upptime/upptime/actions?query=workflow%3A%22Uptime+CI%22)
-[![Response Time CI](https://github.com/upptime/upptime/workflows/Response%20Time%20CI/badge.svg)](https://github.com/upptime/upptime/actions?query=workflow%3A%22Response+Time+CI%22)
-[![Graphs CI](https://github.com/upptime/upptime/workflows/Graphs%20CI/badge.svg)](https://github.com/upptime/upptime/actions?query=workflow%3A%22Graphs+CI%22)
-[![Static Site CI](https://github.com/upptime/upptime/workflows/Static%20Site%20CI/badge.svg)](https://github.com/upptime/upptime/actions?query=workflow%3A%22Static+Site+CI%22)
-[![Summary CI](https://github.com/upptime/upptime/workflows/Summary%20CI/badge.svg)](https://github.com/upptime/upptime/actions?query=workflow%3A%22Summary+CI%22)
+[![Uptime CI](https://github.com/NegevUrbanResearch/upptime/workflows/Uptime%20CI/badge.svg)](https://github.com/NegevUrbanResearch/upptime/actions?query=workflow%3A%22Uptime+CI%22)
+[![Response Time CI](https://github.com/NegevUrbanResearch/upptime/workflows/Response%20Time%20CI/badge.svg)](https://github.com/NegevUrbanResearch/upptime/actions?query=workflow%3A%22Response+Time+CI%22)
+[![Graphs CI](https://github.com/NegevUrbanResearch/upptime/workflows/Graphs%20CI/badge.svg)](https://github.com/NegevUrbanResearch/upptime/actions?query=workflow%3A%22Graphs+CI%22)
+[![Static Site CI](https://github.com/NegevUrbanResearch/upptime/workflows/Static%20Site%20CI/badge.svg)](https://github.com/NegevUrbanResearch/upptime/actions?query=workflow%3A%22Static+Site+CI%22)
+[![Summary CI](https://github.com/NegevUrbanResearch/upptime/workflows/Summary%20CI/badge.svg)](https://github.com/NegevUrbanResearch/upptime/actions?query=workflow%3A%22Summary+CI%22)
 
-## [📈 Live Status](https://demo.upptime.js.org): <!--live status--> **🟧 Partial outage**
+## [📈 Live Status](https://negevurbanresearch.github.io/upptime/): <!--live status--> **🟩 All systems operational**
 
 <!--start: status pages-->
 <!-- This summary is generated by Upptime (https://github.com/upptime/upptime) -->
