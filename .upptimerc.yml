@@ -16,6 +16,8 @@ sites:
     maxResponseTime: 15000
     assignees:
       - NegevUrbanResearch
+    __dangerous__body_degraded_if_text_missing: "Shelter"
+    __dangerous__insecure: true
 
   - name: Data API - Buildings
     url: https://negevurbanresearch.github.io/shelter_access/data/buildings_light.geojson
@@ -28,6 +30,8 @@ sites:
     maxResponseTime: 30000
     assignees:
       - NegevUrbanResearch
+    __dangerous__body_degraded_if_text_missing: "type"
+    __dangerous__insecure: true
 
   - name: Data API - Shelters
     url: https://negevurbanresearch.github.io/shelter_access/data/shelters.geojson
@@ -40,6 +44,8 @@ sites:
     maxResponseTime: 30000
     assignees:
       - NegevUrbanResearch
+    __dangerous__body_degraded_if_text_missing: "type"
+    __dangerous__insecure: true
 
   - name: Data API - Accessibility Heatmap
     url: https://negevurbanresearch.github.io/shelter_access/data/accessibility_heatmap.json
@@ -52,6 +58,8 @@ sites:
     maxResponseTime: 30000
     assignees:
       - NegevUrbanResearch
+    __dangerous__body_degraded_if_text_missing: "accessibility"
+    __dangerous__insecure: true
 
 status-website:
   baseUrl: /upptime
